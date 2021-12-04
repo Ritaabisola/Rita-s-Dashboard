@@ -1,0 +1,58 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; list-style-type: none;
+}
+
+.navigation{width:250px; height:auto; padding-bottom: 20px; box-shadow: 1px 3px 2px rgba( 0, 0, 0, 0.5);}
+
+.logo{margin: 2opx 20px; padding: 15px;}
+
+.navigation ul{background-color: beige; color:beige; margin-top: 100px;}
+
+.navigation ul li{background-color: #000; padding:20px 70px; margin:10px 0; letter-spacing: 2px; font-size: 19px; position: relative;
+  }
+
+.pink{position: absolute; top: 15px; left:20px;}
+
+.blue{position: absolute; top: 15px; left:20px;}
+
+.red{position: absolute; top: 15px; left:20px;}
+.green{position: absolute; top: 15px; left:20px;}
+.gold{position: absolute; top: 15px; left:20px;}
+
+.category_color{background-color: palevioletred !important;}
+
+/* Nav foot*/
+.nav_foot {background-color: #f4f4f4; margin-left:-10px; position: relative; padding-top: 140px; text-align: center; height: 216px;width: 216px;border-radius: 5px; margin-top: 50px;} 
+
+.nav_foot img{width: 163px; position: absolute; top:0; left:35px; align-self: center; height:140px; object-fit:cover;}
+
+.nav_foot .click{ background-color: teal; border:0; color: white; border-radius: 5px; box-shadow: none; width: 100px; ; padding: 5px;}
+
+.dashboard{display: flex;}
+
+nav{display: flex; background-color: white; justify-content: space-between; width: 1100px; box-shadow: 1px 3px 2px rgba( 0, 0, 0, 0.5); height:60px;}
+
+.main_icons input{ padding:10px;
+border-radius: 25px;
+background-color: white; position: absolute;
+left: 1000px; margin-top: 10px;}
+
+.main_icons img{ padding:10px;
+    border-radius: 25px;
+    background-color: white;}
+
+    .doughnut{display: flex; justify-content: space-between; margin-top: 20px; margin-left: 20px; margin-right: 20px;;}
+
+    .round{width:145px; height: 200px; position: relative  ;} /*background-color: #f4f4f4; box-shadow:1px 3px 2px rgba( 0, 0, 0, 0.5)*/
+
+    .wrapper{width: 335px;height: 170px;
+    box-shadow:1px 3px 2px rgba( 0, 0, 0, 0.5) ; display: flex; justify-content: space-between; position: relative;}
+
+    .wrapper p{top:50px}
+
+    .number{position: absolute;top: 25%; transform: translate(60%, 50%);}
+
+    .end{display: flex;}
+
+
+    .table{align-items: center;}

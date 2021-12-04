@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rita's Dashboard</title>
+
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard"><!--Dashboard-->
+        <div class="navigation"> <!--Navigation-->
+            <img src="assets/img/Instincthub logo.png" alt="Logo" class="logo">
+            <div class="category category_color"></div>
+           <ul>
+               <li><img src="assets/img/bx_bxs-dashboard.png" alt="Overview" class="pink">Overview</li>
+               <li><img src="assets/img/akar-icons_file.png" alt="Classes"  class="blue">Classes</li>
+               <li><img src="assets/img/codicon_graph.png" alt="Analytics" class="green">Analytics</li>
+               <li><img src="assets/img/ic_baseline-group.png" alt="Community" class="red">Community</li>
+               <li><img src="assets/img/fe_logout.png" alt="Logout" class="gold">Logout</li>
+            </ul>
+
+            <div class="nav_foot">
+                <img src="assets/img/Upgrade illustration.png" alt="">
+                <p>Upgrade your student portal account</p>
+                <button class="click">Upgrade</button>
+            </div> 
+        </div><!--Navigation End-->
+        
+        <div class="main"><!--Main-->
+                <nav>
+                    <h2>My course Dashboard</h2>
+                    <div class="main_icons">
+                        <input type="text" placeholder="You are looking for...">
+                        <img src="assets/img/bx_bx-search.png" alt="search">
+                        <img src="assets/img/codicon_bell-dot.png" alt="bell">
+                        <img src="assets/img/User profile.png" alt="avatar">
+                    </div>
+                </nav>
+                
+                <div class="doughnut"><!--Charts-->
+                   
+                    <div class="wrapper">
+                        <div class="round"><canvas id="triangle" width="400" height="400"></canvas></div>
+                        <h1 class="number">71%</h1>
+                        <p>Daily <br> <span> Activities</span></p>
+                    </div>
+            
+                    <div class="wrapper">
+                        <div class="round"><canvas id="square" width="400" height="400"></canvas></div>
+                        <h1 class="number">20%</h1>
+                        <p>Monthly <br> <span> Activities</span></p>
+                    </div>
+
+                    <div class="wrapper">
+                        <div class="round"><canvas id="circle" width="400" height="400"></canvas></div>
+                        <h1 class="number">12%</h1>
+                        <p>Yearly <br> <span> Activities</span></p>
+                    </div>
+                </div><!--Charts End-->
+
+                <table class="table">
+                    <tr>
+                        <td>No</td>
+                        <td>Course Name</td>
+                        <td>Department</td>
+                        <td>Units</td>
+                        <td>Gpa</td>
+                                       
+                    </tr>
+
+                    <tr>
+                        <td>0</td>
+                        <td>Tax Academy Introduction</td>
+                        <td>Finances</td>
+                        <td>3</td>
+                        <td>4.3/5</td>
+                                       
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Transfer Pricing</td>
+                        <td>Customer Service</td>
+                        <td>3</td>
+                        <td>4.3/5</td>
+                                       
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Tax Academy for Beginners</td>
+                        <td>Purchasing</td>
+                        <td>3</td>
+                        <td>4.3/5</td>
+                                       
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>New Business</td>
+                        <td>Finances</td>
+                        <td>3</td>
+                        <td>3.0/5</td>
+                                       
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Tax Accounting</td>
+                        <td>Administration</td>
+                        <td>8</td>
+                        <td>4.7/5</td>
+                                       
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>Motion Design</td>
+                        <td>IT Dep</td>
+                        <td>6</td>
+                        <td>4.4/5</td>
+                                       
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td>3D Modeling</td>
+                        <td>IT Dep</td>
+                        <td>3</td>
+                        <td>3.0/5</td>
+                                       
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>Brand Strategy on Instagram</td>
+                        <td>Marketing</td>
+                        <td>3</td>
+                        <td>4.7/5</td>
+                                       
+                    </tr>
+                
+
+                </table>
+
+            <div class="end">
+                <div>
+                <h2>When nothing goes right,go left</h2>
+                <p>Build your skills with courses and degree online from anywhere with professional instructors.</p>
+                <button>Learn more</button>
+            </div>
+                <img src="assets/img/female image.png" alt="">
+            </div>
+
+        </div><!--Main End-->
+
+        
+
+
+
+    </div><!--Dashboard End-->
+
+    <script src="triangle.js"></script>
+    <script src="square.js"></script>
+    <script src="circle.js"></script>
+</body>
+</html>
